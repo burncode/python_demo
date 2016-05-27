@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 #author:maohan
 #date:2016.5.25
+#-*- coding:utf-8 -*-
 import logging
 
-logging.debug("this is debug message!")
-logging.info("this is info message!")
-logging.warning('this is warning message')
+logging.error("this is error message!")
+

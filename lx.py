@@ -7,7 +7,7 @@ import os,sys
 import paramiko
 import re
 
-t1=paramiko.Transport(('172.16.1.71',22))
+t1=paramiko.Transport(('ip',22))
 t1.connect(username='root',password='haoyi123')
 sftp=paramiko.SFTPClient.from_transport(t1)
 sftp.get('/var/log/maillog','f://c.log')#下载服务器log
